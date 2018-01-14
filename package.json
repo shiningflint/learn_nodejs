@@ -1,0 +1,12 @@
+{
+  "name": "learn_nodejs",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "https://github.com/shiningflint/learn_nodejs.git",
+  "author": "Adam Christopher <adam.keristoper@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "moment": "^2.20.1"
+  }
+}
