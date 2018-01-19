@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/kentang', (req, res) => {
-  res.render('potato')
+  res.render('potato', {url: req.url})
 })
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
